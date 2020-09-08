@@ -3,10 +3,5 @@
 <p>elapsed since page load: <span id="counter">0</span></p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-let loadedAt = new Date().getTime();
-let updateFn = setInterval(function() {
-    let elapsed = (new Date().getTime() - loadedAt)/1000;
-    document.getElementById("counter").innerHTML = elapsed;
-}, 200); // update 5x second for maximum fan usage
-</script>
+
+<%= javascript_pack_tag 'counter' %>
