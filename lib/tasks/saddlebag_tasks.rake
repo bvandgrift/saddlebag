@@ -11,8 +11,6 @@ ensure
     Webpacker.logger = old_logger
 end
 
-puts "LOADED!"
-
 namespace :saddlebag do
     namespace :webpacker do
         desc "Install deps with yarn"
