@@ -1,28 +1,9 @@
 # Saddlebag
-Short description and motivation.
 
-## Usage
-How to use my plugin.
+An exemplar of a Rails Engine using Webpacker.
 
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'saddlebag'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install saddlebag
-```
-
-## Contributing
-Contribution directions go here.
+For a detailed discussion, visit [this
+post](http://ben.vandgrift.com/posts/rails-engine-webpacker-1/)
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
